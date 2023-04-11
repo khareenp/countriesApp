@@ -46,8 +46,8 @@ export default function Home() {
             .filter((country) =>
               country.name.common.toLowerCase().includes(text)
             )
-            .map((country) => (
-              <CountryCard country={country} />
+            .map((country, index) => (
+              <CountryCard key={index} country={country} />
             ))}
         </div>
       </div>
