@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Layout from "../layout/Layout";
 import Search from "../searchbox/Search";
 import Filter from "../filter/Filter";
